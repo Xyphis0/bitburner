@@ -433,7 +433,7 @@ export function IndustryOffice(props: IProps): React.ReactElement {
       </Typography>
       <Box sx={{ display: "grid", gridTemplateColumns: "1fr", width: "fit-content" }}>
         <Box sx={{ gridTemplateColumns: "repeat(3, 1fr)" }}>
-          <Tooltip title={<Typography>Automatically hires an employee and gives him/her a random name</Typography>}>
+          <Tooltip title={<Typography>Automatically hires an employee and gives them a random name</Typography>}>
             <span>
               <Button disabled={props.office.atCapacity()} onClick={autohireEmployeeButtonOnClick}>
                 Hire Employee
